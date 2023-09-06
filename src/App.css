@@ -1,0 +1,60 @@
+body {
+  font-family: sans-serif;
+  margin: 0; 
+}
+
+.input-container {
+  display: flex;
+  align-items: center; 
+  width: 550px;
+}
+
+.input {
+  flex: 1; 
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin-right: 8px; 
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 16px; 
+}
+
+.button {
+  border: none;
+  background-color: #00d42e; 
+  color: #fff; 
+  padding: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.button:hover {
+  background-color: #038f26;
+}
+
+
+.card-container {
+  width: 400px;
+}
+
+.note-card {
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin: 8px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.delete-button {
+  cursor: pointer;
+  color: red;
+  font-size: 20px;
+  padding: 4px;
+}
+
